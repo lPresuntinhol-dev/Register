@@ -1,0 +1,18 @@
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente de estudantes.csproj.AssemblyReference.cache
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente de estudantes.csproj.SuggestedBindingRedirects.cache
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente_de_estudantes.Properties.Resources.resources
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente de estudantes.csproj.GenerateResource.cache
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente de estudantes.csproj.CoreCompileInputs.cache
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\Gerente de estudantes.exe.config
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\Gerente de estudantes.exe
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\Gerente de estudantes.pdb
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente de estudantes.exe
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente de estudantes.pdb
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente_de_estudantes.Login_form.resources
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\MySql.Data.dll
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\System.Memory.dll
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\System.Buffers.dll
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\bin\Debug\MySql.Data.xml
+C:\Users\adriano.bpessuto\source\repos\Agenda\Gerente de estudantes\obj\Debug\Gerente de estudantes.csproj.CopyComplete
