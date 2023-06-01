@@ -85,8 +85,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="imagens\border.png" />
+    <Content Include="imagens\senha.png" />
     <Content Include="imagens\user.png" />
+    <Content Include="imagens\usuario.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

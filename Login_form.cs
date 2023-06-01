@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
-using MySql.data.Mysqlclient;
+using MySql.Data.MySqlClient;
 
 namespace Gerente_de_estudantes
 {
@@ -33,7 +33,9 @@ namespace Gerente_de_estudantes
         {
             // Coloca a imagem user.png na picture box da janela.
             pictureBox1.Image = Image.FromFile("../../imagens/user.png");
-            pictureBox2.Image = Image.FromFile("../../imagens/border.png");
+            pictureBox2.Image = Image.FromFile("../../imagens/senha.png");
+            pictureBox3.Image = Image.FromFile("../../imagens/usuario.png");
+
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
@@ -42,7 +44,7 @@ namespace Gerente_de_estudantes
             Pen pen = new Pen(Color.FromArgb(0, 0, 0), 1);
 
             Rectangle area = new Rectangle(0, 0, this.Width - 1, this.Height - 1);
-            LinearGradientBrush lbg = new LinearGradientBrush(area, Color.FromArgb(75, 108, 170), Color.FromArgb(57, 75, 111), LinearGradientMode.Vertical);
+            LinearGradientBrush lbg = new LinearGradientBrush(area, Color.FromArgb(236, 196, 64), Color.FromArgb(221, 172, 23), LinearGradientMode.Vertical);
             mgraphics.FillRectangle( lbg, area);
             mgraphics.DrawRectangle(pen, area);
 
@@ -51,6 +53,20 @@ namespace Gerente_de_estudantes
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnentrar_Click(object sender, EventArgs e)
+        {
+            MEU_BD bancoDeDados = new MEU_BD();
+
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            DataTable tabela = new DataTable();
+            MySqlCommand comando = new MySqlCommand ("SELECT * FROM `usuarios` WHERE `nome` = @usn AND `senha` = @psw", bancoDeDados.getConexao) 
         }
     }
 }
